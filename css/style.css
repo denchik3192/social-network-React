@@ -343,6 +343,25 @@ margin-bottom: 16px;
     font-size: 14px;
 line-height: 22px;
 font-weight: normal;
-margin-right: 4px;
+margin-left: 4px;
+}
+
+.post-footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.post-button{
+    border: none;
+    display: flex;
+    align-items: center;
+}
+.post-button-text{
+font-size: 14px;
+line-height: 22px;
+font-weight: 400;
+font-style: normal;
+margin-left: 8px;
+color: #595959;
 }
 
